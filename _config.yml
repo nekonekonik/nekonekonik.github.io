@@ -9,7 +9,7 @@
 title: nekonekonik
 email: nekonekonik@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the blog of Nicholette Li, a front-end web and iOS mobile developer. She is currently in her senior year at the National University of Singapore.
+  This is the blog of Nicholette Li, a front-end web and iOS mobile developer. She is currently a Computer Science undergraduate at the National University of Singapore.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nekonekonik.github.io" # the base hostname & protocol for your site
 facebook_username: nicholette.li

@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: nekonekonik
+email: nekonekonik@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the blog of Nicholette Li, a front-end web and iOS mobile developer. She is currently in her senior year at the National University of Singapore.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://nekonekonik.github.io" # the base hostname & protocol for your site
+facebook_username: nicholette.li
+twitter_username: nekonekonik
+github_username:  nekonekonik
+fb_id: 610496971
+
+# Build settings
+markdown: kramdown

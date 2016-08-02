@@ -1,0 +1,58 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="col-md-4">
+        <div class="text-center">
+          <img class="profile-thumbnail img-circle" src="http://graph.facebook.com/{{ site.fb_id }}/picture?height=256&width=256">
+          <h2 class="profile-name">Nicholette Li</h2>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <div class="profile-description" style="margin: 15px 0px 10px 0px">
+          <p>Year 4 Computer Science Undergrad</p>
+          <p>National University of Singapore</p>
+          <p>Front-end web & iOS mobile developer</p>
+          <p>Interests: Cats, Food, Photography, Wildlife</p>
+        </div>
+
+        <ul class="contact-list text-center">  
+          <li>
+            <a href="mailto:{{ site.email }}">
+              <i class="fa fa-envelope fa-2x fa-fw"></span></i>
+            </a>
+          </li>
+
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
+              <i class="fa fa-facebook-square fa-2x fa-fw"></span></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank">
+              <i class="fa fa-github fa-2x fa-fw"></span></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.github_username }}" target="_blank">
+              <i class="fa fa-twitter fa-2x fa-fw"></span></i>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>

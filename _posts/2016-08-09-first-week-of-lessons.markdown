@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "First Week Of Lessons & Release of First Assignment"
-date:   2016-08-02 09:26:00 +0800
+date:   2016-08-09 09:26:00 +0800
 categories: CS3216
 ---
 

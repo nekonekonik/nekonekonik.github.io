@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    background-color: $dark-blue-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -17,11 +16,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    color: $grey-color;
 }
 
 .site-nav {
@@ -98,7 +93,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
 }
 
@@ -209,12 +204,13 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-dark;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+    color: $orange-color;
 }
 
 
@@ -230,6 +226,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $orange-color;
 
     @include media-query($on-laptop) {
         font-size: 36px;

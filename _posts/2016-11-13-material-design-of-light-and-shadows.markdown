@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Takeaways from Google's Material Design"
 date:   2016-11-13 00:26:00 +0800
-categories: CS3216, Design
+categories: CS3216 Design
 ---
 
 Hi. It has been a while since I had blogged on CS3216 and this time round I wish to write about my takeaways after reading through [Google's Material Design Principles](https://material.google.com/). Having utilised the [Material UI Library](http://www.material-ui.com/#/) for React in Assignment 3 and my Final Project, the need to understand the underlying principles of Material Design had been more or less abstracted away and I am guilty of not reading up the documentation before working on my projects ><. (Side note: this is not a comprehensive summary of Google's Material UI and only aims to jot down key points which I think is important.)

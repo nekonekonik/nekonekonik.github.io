@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Learning About WebSockets"
 date:   2016-11-13 03:26:00 +0800
-categories: CS3216, Design
+categories: CS3216
 ---
 
 This post will be about websockets since my Final Project was on developing an anonymous chat app and using WebSockets is more suitable for real-time applications over other network protocols like HTTP or HTTPS. 
